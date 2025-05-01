@@ -1,0 +1,379 @@
+
+
+  body{
+
+    font-family:  Arial, 'Arial Narrow', Verdana, sans-serif;
+   margin: 0 auto;
+   background-color:  #e5dbcf;
+
+  }
+
+  header {
+
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Desserts_at_Angelina%2C_Versailles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+
+    display: block;
+    text-align: center;
+    background-color: #536a5e;
+    
+    margin: 0 0 30px 0;
+  }
+
+  .skiplink{
+
+    position: fixed;
+    padding: 3%;
+    top: auto;
+    opacity: 0;
+
+    -webkit-margin-start: 0;
+  }
+
+  .description{
+
+    visibility: hidden;
+
+  }
+
+  .skiplink:focus{      
+
+    color: #110e0e;
+    opacity: 100;
+    display: block;
+    text-shadow: 2px 2px #00000052;
+    background-color: #c2bfbfa8;
+    padding: 10px;
+    border: dotted 5px #110e0e;
+    font-size: x-large;
+    text-decoration: none;
+  }
+
+  header h1{
+
+    font-family: 'Lucida Handwriting','	Brush Script MT';
+    text-shadow: 2px 2px #00000052;
+    background-color: #c2bfbfa8;
+    padding: 10px;
+    border: dotted 5px #110e0e;
+    font-style: italic;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 80px;
+    width: 30%;
+    font-size: 45px;
+    
+
+  }
+
+  #active{
+
+    background-color: #d1afa2;
+    border: solid 8px #705e57;
+    border-left-color: #b1715b;
+    border-right-color:#b45839;
+    border-radius: 5px;
+    color: #2f261a;
+    font-size: 25px;
+
+  }
+
+
+  .pageContent{
+
+    text-align: center;
+
+
+
+  }
+
+  nav {
+    
+    display: inline-block;
+    width: 25%;
+    background-color: #536a5e;
+    margin: 0 5px 0 5px;
+    padding-bottom: 3%;
+    font-size: large;
+    color: 	#ffb4b4;
+    vertical-align: top;
+    /*-webkit-text-stroke: 1px #201f20;*/
+  }
+
+
+  nav a{
+
+    display: table;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    background-color: #2f261a;
+    margin: 0 0 0 25%;
+    border: solid 8px #16130f;
+    border-left-color: #382916;
+    border-right-color:#382916;
+    border-radius: 5px;
+    color: #ffb4b4;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+
+    margin: 0 auto;
+   
+  }
+
+
+  nav a:hover{
+
+    
+    background-color: #ad8272;
+    border: solid 8px #8d6b5e;
+    border-left-color: #ad9289;
+    border-right-color:#c99887;
+    border-radius: 5px;
+    color: #2f261a;
+   
+  }
+
+  nav a:active{
+
+    
+    background-color: #2f261a;
+    border: solid 8px #8d6b5e;
+    border-left-color: #ad9289;
+    border-right-color:#c99887;
+    border-radius: 5px;
+    color: #ad8272;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
+
+    margin: 0 auto;
+   
+  }
+
+
+  .main {
+    display: inline-block;
+    width: 70%;
+    background-color: #536a5e;
+    margin: 0 5px 0 5px;
+  }
+
+  .main h2{
+    font-family: 'Brush Script MT';
+    font-size: 35px;
+    text-shadow: 2px 2px #00000052;
+    background-color: #c2bfbfa8;
+    padding: 10px;
+    border: dotted 5px #110e0e;
+
+   
+  }
+
+  .main a{
+
+    font-size: 25px;
+    text-shadow: 5px 5px #00000052;
+    color: #e1c693;
+    text-decoration: none;
+    
+  }
+
+  .main p{
+    padding: 0 auto;
+    color: 	#ffb4b4;
+    font-size: x-large;
+  }
+
+  .main2 h2{
+    font-family: 'Lucida Handwriting','	Brush Script MT';
+    text-shadow: 2px 2px #00000052;
+    background-color: #c2bfbfa8;
+    padding: 10px;
+    border: dotted 5px #110e0e;
+  }
+
+  .menuImages{
+
+    display: grid;
+    grid-template-columns: 42% 42%;
+    justify-content: space-evenly;
+    row-gap: 1%;
+    align-items: center;
+    padding-bottom: 15%;
+    padding-top: 0%;
+    
+  }
+
+  .menuImages h2{
+
+    display: inline-block;
+  }
+
+  .menuImages img{
+
+    padding: 2%;
+    background-color: #acacacc0;
+    border: solid 3px #374946;
+    height: 80%;
+    width: 75%;
+
+    transition-property: border-radius, background-color, border;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+  }
+
+  .menuImages img:hover{
+
+    background-color: #ffb4b4;
+    border: solid 3px #2f261a;
+    border-radius: 50%;
+
+  }
+
+  .menuImages img:active{
+
+    background-color: #110e0e;
+    border: solid 3px #5a5659;
+    border-radius: 50%;
+
+  }
+
+  #founders img{
+
+    width: 45%;
+    padding: 1%;
+    background-color: #b8934e;
+    border: solid 3px #241803;
+    
+
+  }
+
+  .TeamImages{
+
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-evenly;
+    row-gap: 1%;
+    align-items: center;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    
+  }
+
+  .TeamImages img{
+
+    padding: 2%;
+    background-color: #acacac;
+    border: solid 3px #16130f;
+    height: 85%;
+    width: 75%;
+  }
+
+  .TeamImages div:nth-child(odd) img{
+
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #d8dad1;
+    border: solid 3px #161513;
+    padding: 2%;
+  }
+
+
+  .TeamImages div:nth-child(even) img{
+
+    border-radius: 15%;
+  }
+
+  .menuImages3{
+
+    display: flex;
+    
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+
+  }
+
+  .menuImages3 img{
+
+    /*justify-content: space-between;*/
+    margin: 2%;
+    padding: 3%;
+    background-color: #d3ccd1c0;
+    border: solid 1px #110e0e;
+    width:85%;
+
+  }
+
+  .menuImages4{
+
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-evenly;
+    row-gap: 1%;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 0%;
+    
+  }
+
+  .menuImages4 img{
+
+    padding: 2%;
+    background-color: #acacacc0;
+    border: solid 3px #374946;
+    height: 80%;
+    width: 75%;
+
+    transition-property: border-radius, background-color, border;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+  }
+
+  .menuImages4 img:hover{
+
+    background-color: #ffb4b4;
+    border: solid 3px #2f261a;
+    border-radius: 50%;
+
+  }
+
+
+  footer{
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/81/Sprinkles_%2848561167977%29.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+
+    height: 100px;
+    margin-top: 3%;
+
+    display: block;
+    background-color: #33341c;
+  }
+
+
+  footer h4{
+
+    font-family: 'Lucida Handwriting','	Brush Script MT';
+    text-shadow: 2px 2px #00000052;
+    background-color: #c2bfbfa8;
+    padding: 10px;
+    border: dotted 5px #110e0e;
+    font-style: italic;
+
+  
+    position: absolute;
+    left: 2%
+   
+
+  }
